@@ -1,0 +1,76 @@
+@import "./variables";
+@import "./responsive";
+
+.footer {
+  padding-block: 32px;
+  display: grid;
+  margin-left: 40px;
+  &-container {
+    row-gap: 64px;
+  }
+  &-data {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  &-title {
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  &-links {
+    display: grid;
+    row-gap: 10px;
+  }
+  &-link {
+    color: $text-color;
+    font-size: 12px;
+    transition: all 0.4s;
+    &:hover {
+      color: $first-color;
+    }
+  }
+  &-group {
+    display: grid;
+    input {
+      border: none;
+      outline: none;
+      padding: 15px 15px;
+      width: 100%;
+      border-radius: 64px;
+      margin-bottom: 20px;
+      background-color: $container-color;
+      color: $text-color;
+    }
+    button {
+      width: 100%;
+    }
+  }
+  &-button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: $body-font;
+    font-size: 14px;
+  }
+
+  &-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    div {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 10px;
+      a {
+        color: $text-color;
+        &:hover {
+          color: $first-color;
+        }
+      }
+    }
+  }
+  &-copyright span {
+    text-align: center;
+    font-size: 12px !important;
+  }
+}

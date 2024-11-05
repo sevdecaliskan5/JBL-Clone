@@ -1,0 +1,32 @@
+@import "./variables";
+@import "./responsive";
+
+.about {
+  &-container {
+    align-items: center;
+  }
+  &-data {
+    text-align: center;
+    h2 {
+      text-transform: uppercase;
+    }
+    span {
+      background-color: $first-color;
+    }
+    .learn {
+      text-decoration: underline;
+      &:hover {
+        color: $first-color;
+      }
+    }
+  }
+  &-description {
+    margin: 20px 0;
+  }
+  &-img {
+    width: 460px;
+    height: 280px;
+    justify-self: center;
+    border-radius: 8px;
+  }
+}

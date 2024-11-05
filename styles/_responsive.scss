@@ -1,0 +1,114 @@
+@import "./variables";
+
+@media screen and (min-width: 768px) {
+  .home {
+    &-img {
+      width: 320px !important;
+    }
+    &-title {
+      font-size: 256px;
+      top: -64px;
+    }
+
+    &-tooltip-img {
+      margin-top: 10px;
+    }
+
+    &-tooltip-text {
+      margin-top: 10px;
+    }
+
+    &-social {
+      top: 0;
+      bottom: 0;
+      align-content: center;
+    }
+    &-social-text {
+      font-size: 16px;
+    }
+
+    &-social-links {
+      margin-left: 26px;
+    }
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .container {
+    margin-inline: auto;
+  }
+  .section {
+    padding-block: 128px 32px;
+  }
+
+  .home {
+    &-img {
+      width: 500px !important;
+    }
+    &-title {
+      font-size: 25rem;
+      top: -8px;
+      column-gap: 16px;
+    }
+    &-tooltip-img {
+      width: initial;
+      margin-top: 40px;
+    }
+    &-tooltip-text {
+      font-size: $normal-font-size;
+      margin-top: 40px;
+    }
+
+    &-social-links {
+      row-gap: 16px;
+    }
+    &-social-link {
+      font-size: 14px;
+    }
+  }
+
+  .about {
+    &-container {
+      grid-template-columns: 600px 500px;
+    }
+    &-img {
+      width: 500px !important;
+    }
+  }
+  .about-data .section-title .abput-description {
+    text-align: center;
+  }
+
+  .modal-img {
+    width: 600px !important;
+  }
+
+  .modal-tooltip {
+    img {
+      width: initial;
+    }
+  }
+  .modal-tooltip-text {
+    font-size: $normal-font-size;
+    transform: translate(82px, -56px);
+    padding: 8px;
+  }
+
+  .modal-tooltip-1 {
+    top: 160px !important;
+    left: 200px !important;
+  }
+  .modal-tooltip-2 {
+    top: 210px !important;
+    left: 340px !important;
+  }
+
+  .modal-tooltip-3 {
+    top: 440px !important;
+    left: 110px !important;
+  }
+  .modal-tooltip-4 {
+    top: 320px !important;
+    left: 190px !important;
+  }
+}

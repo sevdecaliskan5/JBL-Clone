@@ -1,0 +1,32 @@
+@import "./variables";
+@import "./responsive";
+
+.contact {
+  &-container {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contact-data {
+    flex: 1;
+    margin-right: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  span {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  input {
+    padding: 14px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px;
+  }
+}

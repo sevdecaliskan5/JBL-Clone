@@ -1,0 +1,57 @@
+@import "./variables";
+@import "./responsive";
+
+.modal {
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: $first-color;
+    margin-bottom: 10px;
+  }
+  p {
+    text-align: center;
+  }
+  &-container {
+    padding-top: 40px;
+  }
+  &-content {
+    position: relative;
+    justify-self: center;
+  }
+  .modal-img {
+    width: 280px;
+  }
+  &-tooltip {
+    position: absolute;
+    &-text {
+      background: $gradient-color;
+      padding: 6px 12px;
+      border-radius: 64px;
+      color: white;
+      font-size: 0.813rem;
+      font-weight: $font-medium;
+      position: absolute;
+      white-space: nowrap;
+      transform: translate(5px, -12px);
+    }
+    &-1 {
+      top: 50px;
+      left: 120px;
+    }
+    &-2 {
+      top: 90px;
+      left: 160px;
+    }
+
+    &-3 {
+      bottom: 28px;
+      left: 50px;
+    }
+
+    &-4 {
+      bottom: 100px;
+      left: 90px;
+    }
+  }
+
+}

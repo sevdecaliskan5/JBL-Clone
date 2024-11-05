@@ -1,0 +1,48 @@
+@import "./variables";
+@import "./mixin";
+@import "./global";
+
+.header {
+  width: 100%;
+  padding: 5px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo img {
+    width: 40px;
+  }
+  .navbar li a {
+    margin-left: 25px;
+    color: $white-color;
+    font-size: 18px !important;
+    font-weight: $small-font-size;
+    transition: all 0.4s;
+    &:hover {
+      color: $first-color;
+    }
+  }
+}
+
+.blur-header::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(23, 12%, 4%, 0.2);
+  backdrop-filter: blur(32px);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media (max-width: 850px) {
+  .header .navbar {
+    display: none;
+  }
+}
