@@ -20,4 +20,5 @@ This project includes the following features:
 To get a better understanding of how the website works, check out the screen recording below. It showcases the responsive design, smooth animations, and interactive features of the page in action.
 Feel free to watch the demo to see the project's features in real-time! 
 
-![Uploading JBL-GoogleChrome2024-11-0518-23-07-ezgif.com-video-to-gif-converter.gif…]()
+![JBL-GoogleChrome2024-11-0518-23-07-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/a09594bc-6baf-4a61-86e7-f45eed227ead)
+
