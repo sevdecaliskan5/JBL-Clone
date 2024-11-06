@@ -6,10 +6,6 @@ I recreated a product page design for the JBL brand using HTML5 and SCSS. This p
 
 **SCSS:** Used for modern, flexible, and maintainable style files.
 
-**Font Awesome:** Integrated the Font Awesome library for the icons used on the page.
-
-**Favicon:** Added a custom icon for the site.
-
 # Features
 This project includes the following features:
 
@@ -21,7 +17,9 @@ This project includes the following features:
 
 **Music and Gaming Equipment:** Featuring JBL's popular products, with a bestsellers section.
 
-**Smooth Animations:** Soft, fluid animations applied throughout the site using SCSS. Hover effects, fades, and slide-ins enhance the user interaction, making the page feel more dynamic and interactive. 
+**Smooth Animations:** Soft, fluid animations applied throughout the site using SCSS. Hover effects, fades, and slide-ins enhance the user interaction, making the page feel more dynamic and interactive.
+
+**Font Awesome:** Integrated the Font Awesome library for the icons used on the page.
 
 # Live Demo / Preview
 To get a better understanding of how the website works, check out the screen recording below. It showcases the responsive design, smooth animations, and interactive features of the page in action.
