@@ -19,4 +19,4 @@ Smooth Animations: Soft, fluid animations applied throughout the site using SCSS
 # Live Demo / Preview
 To get a better understanding of how the website works, check out the screen recording below. It showcases the responsive design, smooth animations, and interactive features of the page in action.
 Feel free to watch the demo to see the project's features in real-time! 
-![JBL-GoogleChrome2024-11-0518-23-07-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/061a7918-5c4e-48d3-8688-3d6054a6d95c)
+
