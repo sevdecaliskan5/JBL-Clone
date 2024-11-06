@@ -2,10 +2,10 @@
 I recreated a product page design for the JBL brand using HTML5 and SCSS. This project is an e-commerce page interface that introduces JBL's speakers, headphones, in-ear headphones, and gaming equipment.
 
 # Technologies Used
-**HTML5:** Used for structuring the page layout and content.
-**-SCSS:** Used for modern, flexible, and maintainable style files.
-**-Font Awesome:** Integrated the Font Awesome library for the icons used on the page.
-**-Favicon:** Added a custom icon for the site.
+-**HTML5:** Used for structuring the page layout and content.
+-**SCSS:** Used for modern, flexible, and maintainable style files.
+-**Font Awesome:** Integrated the Font Awesome library for the icons used on the page.
+-**Favicon:** Added a custom icon for the site.
 
 # Features
 This project includes the following features:
